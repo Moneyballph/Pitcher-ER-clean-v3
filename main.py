@@ -15,7 +15,7 @@ st.set_page_config(page_title="Pitcher ER Simulator", layout="wide")
 st.markdown("""
     <style>
     .stApp {
-        background-image: url("https://i.imgur.com/dqQX1WQ.jpg");
+        background-image: url("final_background.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -29,7 +29,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div id="logo"><img src="https://i.imgur.com/9TJ3G7M.png" width="160"></div>', unsafe_allow_html=True)
+st.markdown('<div id="logo"><img src="logo.png" width="160"></div>', unsafe_allow_html=True)
 
 st.title("🎯 Pitcher Earned Runs Simulator")
 
